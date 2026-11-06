@@ -16,6 +16,7 @@ Welcome to my Data Analyst Portfolio! This repository showcases my practical wor
 ## 📊 Projects
 
 ### 1. Retail Demand Forecasting & Inventory Optimization
+
 - Analyzed retail sales data using Python and SQL.
 - Performed exploratory data analysis and business analysis.
 - Built demand forecasting models using Random Forest.
@@ -23,6 +24,10 @@ Welcome to my Data Analyst Portfolio! This repository showcases my practical wor
 - Developed an interactive Power BI dashboard.
 
 **Technologies:** Python, SQL, Pandas, Scikit-learn, Power BI
+
+### Dashboard Preview
+
+![Retail Demand Forecasting Dashboard](01_Retail_Demand_Forecasting/visualizations/retail_dashboard.png)
 
 [View Project](./01_Retail_Demand_Forecasting/)
 
