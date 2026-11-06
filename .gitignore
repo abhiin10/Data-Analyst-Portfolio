@@ -1,0 +1,15 @@
+# Large raw datasets
+01_Retail_Demand_Forecasting/dataset/train.csv
+01_Retail_Demand_Forecasting/dataset/test.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# System files
+.DS_Store
+Thumbs.db

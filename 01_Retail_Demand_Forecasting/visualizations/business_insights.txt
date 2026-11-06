@@ -1,0 +1,87 @@
+
+========================================================
+       RETAIL DEMAND FORECASTING - BUSINESS INSIGHTS
+========================================================
+
+1. PROJECT OBJECTIVE
+--------------------
+Develop a retail demand forecasting solution to predict
+sales and support inventory planning.
+
+2. DATASET OVERVIEW
+-------------------
+Total records: 3000888
+Unique stores: 54
+Product categories: 33
+Date range: 2013-01-01 00:00:00 to 2017-08-15 00:00:00
+
+Selected store: 1
+Selected category: BEVERAGES
+
+3. FORECASTING METHODOLOGY
+--------------------------
+Models evaluated:
+- 7-Day Seasonal Naive
+- Random Forest Regressor
+
+Random Forest features:
+- Day of week
+- Month
+- Day of month
+- Weekend indicator
+- Lag 7, Lag 14 and Lag 28 sales
+
+Training records: 1566
+Testing records: 90
+
+4. MODEL PERFORMANCE
+--------------------
+7-Day Seasonal Naive:
+MAE: 241.38
+RMSE: 381.16
+MAPE: 12.99%
+
+Random Forest:
+MAE: 222.52
+RMSE: 309.87
+MAPE: 11.68%
+
+Best-performing model: Random Forest
+
+5. FEATURE IMPORTANCE
+---------------------
+     Feature  Importance
+       lag_7    0.750593
+      lag_14    0.098452
+day_of_month    0.043759
+      lag_28    0.041237
+       month    0.032028
+ day_of_week    0.029827
+  is_weekend    0.004104
+
+6. KEY BUSINESS INSIGHTS
+------------------------
+- Random Forest achieved lower errors than the baseline.
+- Lag 7 was the most influential predictive feature.
+- Weekly demand patterns can support inventory planning.
+- Forecasts can help retailers plan stock replenishment.
+
+7. BUSINESS RECOMMENDATIONS
+---------------------------
+- Monitor weekly sales patterns.
+- Use demand forecasts to support replenishment decisions.
+- Review prediction errors regularly.
+- Validate the model across more stores and categories.
+
+8. PROJECT LIMITATIONS
+----------------------
+- Current evaluation focuses on Store 1 and BEVERAGES.
+- Testing period contains 90 days.
+- Predictions use actual historical sales for rolling
+  one-day-ahead forecasting.
+- Holidays, promotions and external factors can be
+  incorporated in future model improvements.
+
+========================================================
+                    END OF REPORT
+========================================================
